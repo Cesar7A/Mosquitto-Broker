@@ -1,0 +1,16 @@
+//Configuración de puerto
+//C:\Program Files\mosquito
+listener 1883
+allow_anonymous true
+
+
+
+// instalar en ambas maquinas
+pip install paho-mqtt
+
+
+//Para el broker
+CMD
+//Ejecutar como administrador
+net stop mosquitto
+net start mosquitto
